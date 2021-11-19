@@ -1,4 +1,4 @@
-export interface IOrder {
+export default interface IOrder {
   id?: number;
   title: string;
   description: string;

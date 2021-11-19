@@ -4,7 +4,6 @@ import { AuthRequired, CurrentUser } from 'modules/common/guards/token';
 import { ICurrentUser } from 'modules/common/interfaces/currentUser';
 import { enRoles, listPublicRoles } from 'modules/database/interfaces/user';
 import { User } from 'modules/database/models/user';
-
 import { UserRepository } from '../repositories/user';
 import { UserService } from '../services/user';
 import { ListValidator } from '../validators/user/list';
