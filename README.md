@@ -50,7 +50,7 @@ yarn install
 sudo docker-compose up
 
 # Agora abra outro terminal da pasta raiz do projeto e navegue até o projeto web (Aplicação Front-End)
-cd waproject-base-api
+cd waproject-base-web
 
 # Instale as dependências
 yarn install
